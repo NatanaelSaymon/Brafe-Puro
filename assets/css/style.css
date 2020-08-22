@@ -14,7 +14,6 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff;
 }
 
 ul {
@@ -58,6 +57,7 @@ a.menu-logo {
   display: block;
   padding: 10px;
   font-size: 1.125em;
+  color: #fff;
 }
 
 /* INTRO */
@@ -142,7 +142,7 @@ a.menu-logo {
   position: relative;
 }
 
-.sobre>p {
+.sobre > p {
   max-width: 460px;
   font-size: 1.125em;
   line-height: 1.4em;
@@ -150,8 +150,6 @@ a.menu-logo {
   text-align: center;
   margin: 20px auto;
 }
-
-
 
 /* PRODUTOS */
 
@@ -187,7 +185,7 @@ a.menu-logo {
 }
 
 .produtos-item h2::before {
-  content: '';
+  content: "";
   display: block;
   margin: 10px auto;
   width: 100px;
@@ -227,4 +225,56 @@ h2.produtos-mineiro::before {
   font-weight: bold;
   text-transform: uppercase;
   margin: 20px auto 0 auto;
+}
+
+/* LOCAIS */
+.locais {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.locais-item {
+  clear: both;
+  margin: 60px auto;
+}
+
+.locais-item::after,
+.locais-item::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.locais-item img {
+  display: block;
+  width: 460px;
+  float: left;
+  margin: 0 10px;
+}
+
+.locais-item > div {
+  width: 460px;
+  float: left;
+  margin: 0 10px;
+}
+
+.locais-item h2 {
+  font-size: 2.25em;
+  margin-bottom: 20px;
+}
+
+.locais-item p {
+  max-width: 320px;
+  font-size: 1.125em;
+  line-height: 1.4em;
+  margin-bottom: 40px;
+}
+
+.locais-item a {
+  font-size: 1.125em;
+  text-transform: uppercase;
+  color: #252525;
+  border: 3px solid;
+  padding: 10px 20px;
 }
