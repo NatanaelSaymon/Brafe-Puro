@@ -142,7 +142,7 @@ a.menu-logo {
   position: relative;
 }
 
-.sobre > p {
+.sobre>p {
   max-width: 460px;
   font-size: 1.125em;
   line-height: 1.4em;
@@ -252,7 +252,7 @@ h2.produtos-mineiro::before {
   margin: 0 10px;
 }
 
-.locais-item > div {
+.locais-item>div {
   width: 460px;
   float: left;
   margin: 0 10px;
@@ -400,7 +400,7 @@ form {
     max-width: 720px;
   }
 
-  .locais-item > div,
+  .locais-item>div,
   .locais-item img {
     width: 340px;
   }
@@ -423,6 +423,7 @@ form {
   .menu {
     text-align: center;
   }
+
   a.menu-logo {
     float: none;
     margin: 0 auto;
@@ -458,7 +459,7 @@ form {
     max-width: 300px;
   }
 
-  .locais-item > div,
+  .locais-item>div,
   .locais-item img {
     width: 300px;
     margin: 0px;
